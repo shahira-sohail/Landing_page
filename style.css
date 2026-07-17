@@ -38,7 +38,14 @@ header{
     font-size:30px;
     font-weight:bold;
     color:#2EC4B6;
-    
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 80px;
+    width: auto;
+    display: block;
 }
 
 .nav-links{
@@ -108,6 +115,25 @@ header{
     background:#24a89c;
 }
 
+.about{
+    padding:60px 10%;
+    background:#f4f8fb;
+    text-align:center;
+}
+
+.about h2{
+    font-size:36px;
+    color:#0B2545;
+    margin-bottom:20px;
+}
+
+.about p{
+    max-width:700px;
+    margin:auto;
+    font-size:18px;
+    color:#555;
+    line-height:1.6;
+}
 
 .services{
     padding:60px 10%;
@@ -215,6 +241,17 @@ header{
         margin:12px 0;
     }
     
+    .about{
+        padding:40px 8%;
+    }
+
+    .about h2{
+        font-size:30px;
+    }
+
+    .about p{
+        font-size:16px;
+    }
 
     .service-container{
         grid-template-columns:1fr;
